@@ -42,7 +42,7 @@ def power(a, b, c):
   
     return x % c 
   
-# Asymmetric encryption 
+# Encriptacion asimetrica
 def encrypt(msg, q, h, g): 
   
     en_msg = [] 
