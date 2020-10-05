@@ -10,7 +10,7 @@ Codigo obtenido de: https://pypi.org/project/elgamal/#description
 from elgamal.elgamal import Elgamal 
 
 # Mensaje a cifrar
-m = b'Josue'
+m = b'Hola mundo'
 print("Mensaje a cifrar:",m)
 
 # Se generar las llaves
@@ -25,7 +25,7 @@ print("\nLlave privada: ", pv)
 
 # Se cifra el mensaje utilizando la llave publica
 ct = Elgamal.encrypt(m, pb)
-print("\nTexto cifrado: c", t)
+print("\nTexto cifrado: ", ct)
 
 # Se descifra el mensaje cifrado utilizando la llave privada
 dd = Elgamal.decrypt(ct, pv)
